@@ -1,4 +1,4 @@
-package com.bdd.learning.Steps_To_Reproduce;
+package com.bdd.learning.Steps_To_Learn;
 
 public class Create_A_Cucumber_Project {
 
