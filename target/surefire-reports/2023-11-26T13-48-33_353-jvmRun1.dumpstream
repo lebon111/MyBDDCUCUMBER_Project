@@ -1,0 +1,917 @@
+# Created at 2023-11-26T13:48:39.540
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+
+# Created at 2023-11-26T13:48:39.828
+Unexpected IOException with stream: Checking before every step everything working fine or not - Prioritized 1
+
+
+# Created at 2023-11-26T13:48:39.829
+Unexpected IOException with stream: Checking before every step everything working fine or not - - Prioritized 2
+
+
+# Created at 2023-11-26T13:48:42.268
+Unexpected IOException with stream:   Given User navigates to LoginPage                                              # step_definitions.Login.user_navigates_to_loginpage(java.lang.String)
+      org.openqa.selenium.WebDriverException: disconnected: unable to send message to renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=119.0.6045.160)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [36e26c51a15a6645750e7ec0858f0f02, findElement {using=link text, value=My Account}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.160, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\autom\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57356}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57356/devtoo..., se:cdpVersion: 119.0.6045.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 36e26c51a15a6645750e7ec0858f0f02
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at com.bdd.learning.Pages.HomePage.clickOnMyAccount(HomePage.java:34)
+	at step_definitions.Login.user_navigates_to_loginpage(Login.java:28)
+	at âœ½.User navigates to LoginPage(file:///C:/Users/autom/eclipse-workspace/BDD_CUCUMBER/src/test/resources/feature_files/Login.feature:7)
+
+
+
+# Created at 2023-11-26T13:48:42.269
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 1
+
+
+# Created at 2023-11-26T13:48:42.269
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 2
+
+
+# Created at 2023-11-26T13:48:42.270
+Unexpected IOException with stream:   When User enters valid email seleniumpanda1@gmail.com into email textbox field # step_definitions.Login.user_enters_valid_email_into_email_textbox_field(java.lang.String)
+
+
+# Created at 2023-11-26T13:48:42.272
+Unexpected IOException with stream:   And User enters valid password Selenium@123 into password textbox field        # step_definitions.Login.user_enters_valid_password_into_password_textbox_field(java.lang.String)
+
+
+# Created at 2023-11-26T13:48:42.273
+Unexpected IOException with stream:   And User clicks on Login button                                                # step_definitions.Login.user_clicks_on_login_button()
+
+
+# Created at 2023-11-26T13:48:42.274
+Unexpected IOException with stream:   Then User is navigated to AccountPage                                          # step_definitions.Login.user_is_navigated_to_accountpage()
+
+
+# Created at 2023-11-26T13:48:42.335
+Unexpected IOException: 8,1,runner_files.Test_Runner_TestNG,runScenario(runner_files.Test_Runner_TestNG),null,disconnected: unable to send message to renderer\000A  (failed to check if window was closed: disconnected: not connected to DevTools)\000A  (Session info: chrome=119.0.6045.160)\000ABuild info: version: '4.15.0'\002C revision: '1d14b5521b'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '17.0.8'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [36e26c51a15a6645750e7ec0858f0f02\002C findElement {using=link text\002C value=My Account}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 119.0.6045.160\002C chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e...\002C userDataDir: C:\005CUsers\005Cautom\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:57356}\002C networkConnectionEnabled: false\002C pageLoadStrategy: none\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:57356/devtoo...\002C se:cdpVersion: 119.0.6045.160\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 36e26c51a15a6645750e7ec0858f0f02,null,disconnected: unable to send message to renderer\000A  (failed to check if window was closed: disconnected: not connected to DevTools)\000A  (Session info: chrome=119.0.6045.160)\000ABuild info: version: '4.15.0'\002C revision: '1d14b5521b'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '17.0.8'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [36e26c51a15a6645750e7ec0858f0f02\002C findElement {using=link text\002C value=My Account}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 119.0.6045.160\002C chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e...\002C userDataDir: C:\005CUsers\005Cautom\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:57356}\002C networkConnectionEnabled: false\002C pageLoadStrategy: none\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:57356/devtoo...\002C se:cdpVersion: 119.0.6045.160\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 36e26c51a15a6645750e7ec0858f0f02,Test_Runner_TestNG.runScenario \00BB WebDriver disconnected: unable to send messag...,org.openqa.selenium.WebDriverException: \000Adisconnected: unable to send message to renderer\000A  (failed to check if window was closed: disconnected: not connected to DevTools)\000A  (Session info: chrome=119.0.6045.160)\000ABuild info: version: '4.15.0'\002C revision: '1d14b5521b'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '17.0.8'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [36e26c51a15a6645750e7ec0858f0f02\002C findElement {using=link text\002C value=My Account}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 119.0.6045.160\002C chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e...\002C userDataDir: C:\005CUsers\005Cautom\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:57356}\002C networkConnectionEnabled: false\002C pageLoadStrategy: none\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:57356/devtoo...\002C se:cdpVersion: 119.0.6045.160\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 36e26c51a15a6645750e7ec0858f0f02\000A
+
+
+# Created at 2023-11-26T13:48:42.336
+Unexpected IOException: 5,1,runner_files.Test_Runner_TestNG,runScenario(runner_files.Test_Runner_TestNG),cucumber,null,null
+
+
+# Created at 2023-11-26T13:48:42.341
+Unexpected IOException with stream: 
+@TutorialsNinjaLogin @ValidCredentials
+Scenario Outline: Login with valid credentials                                   # src/test/resources/feature_files/Login.feature:17
+
+
+# Created at 2023-11-26T13:48:43.494
+Unexpected IOException with stream: Checking before every step everything working fine or not - Prioritized 1
+
+
+# Created at 2023-11-26T13:48:43.495
+Unexpected IOException with stream: Checking before every step everything working fine or not - - Prioritized 2
+
+
+# Created at 2023-11-26T13:48:46.826
+Unexpected IOException with stream:   Given User navigates to LoginPage                                              # step_definitions.Login.user_navigates_to_loginpage(java.lang.String)
+
+
+# Created at 2023-11-26T13:48:46.827
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 1
+
+
+# Created at 2023-11-26T13:48:46.827
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 2
+
+
+# Created at 2023-11-26T13:48:46.828
+Unexpected IOException with stream: Checking before every step everything working fine or not - Prioritized 1
+
+
+# Created at 2023-11-26T13:48:46.828
+Unexpected IOException with stream: Checking before every step everything working fine or not - - Prioritized 2
+
+
+# Created at 2023-11-26T13:48:47.936
+Unexpected IOException with stream:   When User enters valid email seleniumpanda2@gmail.com into email textbox field # step_definitions.Login.user_enters_valid_email_into_email_textbox_field(java.lang.String)
+
+
+# Created at 2023-11-26T13:48:47.936
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 1
+
+
+# Created at 2023-11-26T13:48:47.937
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 2
+
+
+# Created at 2023-11-26T13:48:47.938
+Unexpected IOException with stream: Checking before every step everything working fine or not - Prioritized 1
+
+
+# Created at 2023-11-26T13:48:47.938
+Unexpected IOException with stream: Checking before every step everything working fine or not - - Prioritized 2
+
+
+# Created at 2023-11-26T13:48:48.001
+Unexpected IOException with stream:   And User enters valid password Selenium@123 into password textbox field        # step_definitions.Login.user_enters_valid_password_into_password_textbox_field(java.lang.String)
+
+
+# Created at 2023-11-26T13:48:48.002
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 1
+
+
+# Created at 2023-11-26T13:48:48.002
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 2
+
+
+# Created at 2023-11-26T13:48:48.002
+Unexpected IOException with stream: Checking before every step everything working fine or not - Prioritized 1
+
+
+# Created at 2023-11-26T13:48:48.003
+Unexpected IOException with stream: Checking before every step everything working fine or not - - Prioritized 2
+
+
+# Created at 2023-11-26T13:48:48.050
+Unexpected IOException with stream:   And User clicks on Login button                                                # step_definitions.Login.user_clicks_on_login_button()
+
+
+# Created at 2023-11-26T13:48:48.051
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 1
+
+
+# Created at 2023-11-26T13:48:48.052
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 2
+
+
+# Created at 2023-11-26T13:48:48.052
+Unexpected IOException with stream: Checking before every step everything working fine or not - Prioritized 1
+
+
+# Created at 2023-11-26T13:48:48.053
+Unexpected IOException with stream: Checking before every step everything working fine or not - - Prioritized 2
+
+
+# Created at 2023-11-26T13:48:48.830
+Unexpected IOException with stream:   Then User is navigated to AccountPage                                          # step_definitions.Login.user_is_navigated_to_accountpage()
+
+
+# Created at 2023-11-26T13:48:48.830
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 1
+
+
+# Created at 2023-11-26T13:48:48.831
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 2
+
+
+# Created at 2023-11-26T13:48:48.903
+Unexpected IOException: 6,1,runner_files.Test_Runner_TestNG,runScenario(runner_files.Test_Runner_TestNG),null,null,null
+
+
+# Created at 2023-11-26T13:48:48.905
+Unexpected IOException: 5,1,runner_files.Test_Runner_TestNG,runScenario(runner_files.Test_Runner_TestNG),cucumber,null,null
+
+
+# Created at 2023-11-26T13:48:48.910
+Unexpected IOException with stream: 
+@TutorialsNinjaLogin @ValidCredentials
+Scenario Outline: Login with valid credentials                                   # src/test/resources/feature_files/Login.feature:18
+
+
+# Created at 2023-11-26T13:48:50.071
+Unexpected IOException with stream: Checking before every step everything working fine or not - Prioritized 1
+
+
+# Created at 2023-11-26T13:48:50.072
+Unexpected IOException with stream: Checking before every step everything working fine or not - - Prioritized 2
+
+
+# Created at 2023-11-26T13:48:53.465
+Unexpected IOException with stream:   Given User navigates to LoginPage                                              # step_definitions.Login.user_navigates_to_loginpage(java.lang.String)
+
+
+# Created at 2023-11-26T13:48:53.466
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 1
+
+
+# Created at 2023-11-26T13:48:53.467
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 2
+
+
+# Created at 2023-11-26T13:48:53.468
+Unexpected IOException with stream: Checking before every step everything working fine or not - Prioritized 1
+
+
+# Created at 2023-11-26T13:48:53.468
+Unexpected IOException with stream: Checking before every step everything working fine or not - - Prioritized 2
+
+
+# Created at 2023-11-26T13:48:54.634
+Unexpected IOException with stream:   When User enters valid email seleniumpanda3@gmail.com into email textbox field # step_definitions.Login.user_enters_valid_email_into_email_textbox_field(java.lang.String)
+
+
+# Created at 2023-11-26T13:48:54.635
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 1
+
+
+# Created at 2023-11-26T13:48:54.635
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 2
+
+
+# Created at 2023-11-26T13:48:54.636
+Unexpected IOException with stream: Checking before every step everything working fine or not - Prioritized 1
+
+
+# Created at 2023-11-26T13:48:54.636
+Unexpected IOException with stream: Checking before every step everything working fine or not - - Prioritized 2
+
+
+# Created at 2023-11-26T13:48:54.696
+Unexpected IOException with stream:   And User enters valid password Selenium@123 into password textbox field        # step_definitions.Login.user_enters_valid_password_into_password_textbox_field(java.lang.String)
+
+
+# Created at 2023-11-26T13:48:54.698
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 1
+
+
+# Created at 2023-11-26T13:48:54.699
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 2
+
+
+# Created at 2023-11-26T13:48:54.700
+Unexpected IOException with stream: Checking before every step everything working fine or not - Prioritized 1
+
+
+# Created at 2023-11-26T13:48:54.700
+Unexpected IOException with stream: Checking before every step everything working fine or not - - Prioritized 2
+
+
+# Created at 2023-11-26T13:48:54.748
+Unexpected IOException with stream:   And User clicks on Login button                                                # step_definitions.Login.user_clicks_on_login_button()
+
+
+# Created at 2023-11-26T13:48:54.750
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 1
+
+
+# Created at 2023-11-26T13:48:54.750
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 2
+
+
+# Created at 2023-11-26T13:48:54.751
+Unexpected IOException with stream: Checking before every step everything working fine or not - Prioritized 1
+
+
+# Created at 2023-11-26T13:48:54.751
+Unexpected IOException with stream: Checking before every step everything working fine or not - - Prioritized 2
+
+
+# Created at 2023-11-26T13:48:55.557
+Unexpected IOException with stream:   Then User is navigated to AccountPage                                          # step_definitions.Login.user_is_navigated_to_accountpage()
+
+
+# Created at 2023-11-26T13:48:55.558
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 1
+
+
+# Created at 2023-11-26T13:48:55.558
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 2
+
+
+# Created at 2023-11-26T13:48:55.622
+Unexpected IOException: 6,1,runner_files.Test_Runner_TestNG,runScenario(runner_files.Test_Runner_TestNG),null,null,null
+
+
+# Created at 2023-11-26T13:48:55.623
+Unexpected IOException: 5,1,runner_files.Test_Runner_TestNG,runScenario(runner_files.Test_Runner_TestNG),cucumber,null,null
+
+
+# Created at 2023-11-26T13:48:55.627
+Unexpected IOException with stream: 
+@TutorialsNinjaLogin @ValidCredentials
+Scenario Outline: Login with valid credentials                                   # src/test/resources/feature_files/Login.feature:19
+
+
+# Created at 2023-11-26T13:48:56.749
+Unexpected IOException with stream: Checking before every step everything working fine or not - Prioritized 1
+
+
+# Created at 2023-11-26T13:48:56.750
+Unexpected IOException with stream: Checking before every step everything working fine or not - - Prioritized 2
+
+
+# Created at 2023-11-26T13:49:00.260
+Unexpected IOException with stream:   Given User navigates to LoginPage                                              # step_definitions.Login.user_navigates_to_loginpage(java.lang.String)
+
+
+# Created at 2023-11-26T13:49:00.261
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 1
+
+
+# Created at 2023-11-26T13:49:00.261
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 2
+
+
+# Created at 2023-11-26T13:49:00.261
+Unexpected IOException with stream: Checking before every step everything working fine or not - Prioritized 1
+
+
+# Created at 2023-11-26T13:49:00.262
+Unexpected IOException with stream: Checking before every step everything working fine or not - - Prioritized 2
+
+
+# Created at 2023-11-26T13:49:01.156
+Unexpected IOException with stream:   When User enters valid email seleniumpanda4@gmail.com into email textbox field # step_definitions.Login.user_enters_valid_email_into_email_textbox_field(java.lang.String)
+
+
+# Created at 2023-11-26T13:49:01.156
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 1
+
+
+# Created at 2023-11-26T13:49:01.158
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 2
+
+
+# Created at 2023-11-26T13:49:01.158
+Unexpected IOException with stream: Checking before every step everything working fine or not - Prioritized 1
+
+
+# Created at 2023-11-26T13:49:01.159
+Unexpected IOException with stream: Checking before every step everything working fine or not - - Prioritized 2
+
+
+# Created at 2023-11-26T13:49:01.220
+Unexpected IOException with stream:   And User enters valid password Selenium@123 into password textbox field        # step_definitions.Login.user_enters_valid_password_into_password_textbox_field(java.lang.String)
+
+
+# Created at 2023-11-26T13:49:01.220
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 1
+
+
+# Created at 2023-11-26T13:49:01.221
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 2
+
+
+# Created at 2023-11-26T13:49:01.223
+Unexpected IOException with stream: Checking before every step everything working fine or not - Prioritized 1
+
+
+# Created at 2023-11-26T13:49:01.224
+Unexpected IOException with stream: Checking before every step everything working fine or not - - Prioritized 2
+
+
+# Created at 2023-11-26T13:49:01.266
+Unexpected IOException with stream:   And User clicks on Login button                                                # step_definitions.Login.user_clicks_on_login_button()
+
+
+# Created at 2023-11-26T13:49:01.266
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 1
+
+
+# Created at 2023-11-26T13:49:01.267
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 2
+
+
+# Created at 2023-11-26T13:49:01.267
+Unexpected IOException with stream: Checking before every step everything working fine or not - Prioritized 1
+
+
+# Created at 2023-11-26T13:49:01.268
+Unexpected IOException with stream: Checking before every step everything working fine or not - - Prioritized 2
+
+
+# Created at 2023-11-26T13:49:02.129
+Unexpected IOException with stream:   Then User is navigated to AccountPage                                          # step_definitions.Login.user_is_navigated_to_accountpage()
+
+
+# Created at 2023-11-26T13:49:02.131
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 1
+
+
+# Created at 2023-11-26T13:49:02.131
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 2
+
+
+# Created at 2023-11-26T13:49:02.201
+Unexpected IOException: 6,1,runner_files.Test_Runner_TestNG,runScenario(runner_files.Test_Runner_TestNG),null,null,null
+
+
+# Created at 2023-11-26T13:49:02.202
+Unexpected IOException: 5,1,runner_files.Test_Runner_TestNG,runScenario(runner_files.Test_Runner_TestNG),cucumber,null,null
+
+
+# Created at 2023-11-26T13:49:02.206
+Unexpected IOException with stream: 
+@TutorialsNinjaLogin @ValidCredentials
+Scenario Outline: Login with valid credentials                                   # src/test/resources/feature_files/Login.feature:20
+
+
+# Created at 2023-11-26T13:49:03.328
+Unexpected IOException with stream: Checking before every step everything working fine or not - Prioritized 1
+
+
+# Created at 2023-11-26T13:49:03.329
+Unexpected IOException with stream: Checking before every step everything working fine or not - - Prioritized 2
+
+
+# Created at 2023-11-26T13:49:06.959
+Unexpected IOException with stream:   Given User navigates to LoginPage                                              # step_definitions.Login.user_navigates_to_loginpage(java.lang.String)
+
+
+# Created at 2023-11-26T13:49:06.961
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 1
+
+
+# Created at 2023-11-26T13:49:06.963
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 2
+
+
+# Created at 2023-11-26T13:49:06.965
+Unexpected IOException with stream: Checking before every step everything working fine or not - Prioritized 1
+
+
+# Created at 2023-11-26T13:49:06.966
+Unexpected IOException with stream: Checking before every step everything working fine or not - - Prioritized 2
+
+
+# Created at 2023-11-26T13:49:08.590
+Unexpected IOException with stream:   When User enters valid email seleniumpanda5@gmail.com into email textbox field # step_definitions.Login.user_enters_valid_email_into_email_textbox_field(java.lang.String)
+
+
+# Created at 2023-11-26T13:49:08.590
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 1
+
+
+# Created at 2023-11-26T13:49:08.591
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 2
+
+
+# Created at 2023-11-26T13:49:08.591
+Unexpected IOException with stream: Checking before every step everything working fine or not - Prioritized 1
+
+
+# Created at 2023-11-26T13:49:08.592
+Unexpected IOException with stream: Checking before every step everything working fine or not - - Prioritized 2
+
+
+# Created at 2023-11-26T13:49:08.648
+Unexpected IOException with stream:   And User enters valid password Selenium@123 into password textbox field        # step_definitions.Login.user_enters_valid_password_into_password_textbox_field(java.lang.String)
+
+
+# Created at 2023-11-26T13:49:08.649
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 1
+
+
+# Created at 2023-11-26T13:49:08.649
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 2
+
+
+# Created at 2023-11-26T13:49:08.649
+Unexpected IOException with stream: Checking before every step everything working fine or not - Prioritized 1
+
+
+# Created at 2023-11-26T13:49:08.650
+Unexpected IOException with stream: Checking before every step everything working fine or not - - Prioritized 2
+
+
+# Created at 2023-11-26T13:49:08.700
+Unexpected IOException with stream:   And User clicks on Login button                                                # step_definitions.Login.user_clicks_on_login_button()
+
+
+# Created at 2023-11-26T13:49:08.700
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 1
+
+
+# Created at 2023-11-26T13:49:08.701
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 2
+
+
+# Created at 2023-11-26T13:49:08.701
+Unexpected IOException with stream: Checking before every step everything working fine or not - Prioritized 1
+
+
+# Created at 2023-11-26T13:49:08.702
+Unexpected IOException with stream: Checking before every step everything working fine or not - - Prioritized 2
+
+
+# Created at 2023-11-26T13:49:09.517
+Unexpected IOException with stream:   Then User is navigated to AccountPage                                          # step_definitions.Login.user_is_navigated_to_accountpage()
+
+
+# Created at 2023-11-26T13:49:09.518
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 1
+
+
+# Created at 2023-11-26T13:49:09.518
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 2
+
+
+# Created at 2023-11-26T13:49:09.585
+Unexpected IOException: 6,1,runner_files.Test_Runner_TestNG,runScenario(runner_files.Test_Runner_TestNG),null,null,null
+
+
+# Created at 2023-11-26T13:49:09.586
+Unexpected IOException: 5,1,runner_files.Test_Runner_TestNG,runScenario(runner_files.Test_Runner_TestNG),cucumber,null,null
+
+
+# Created at 2023-11-26T13:49:09.590
+Unexpected IOException with stream: 
+@TutorialsNinjaLogin @ValidCredentials
+Scenario Outline: Login with valid credentials                                   # src/test/resources/feature_files/Login.feature:21
+
+
+# Created at 2023-11-26T13:49:10.728
+Unexpected IOException with stream: Checking before every step everything working fine or not - Prioritized 1
+
+
+# Created at 2023-11-26T13:49:10.730
+Unexpected IOException with stream: Checking before every step everything working fine or not - - Prioritized 2
+
+
+# Created at 2023-11-26T13:49:14.007
+Unexpected IOException with stream:   Given User navigates to LoginPage                                              # step_definitions.Login.user_navigates_to_loginpage(java.lang.String)
+
+
+# Created at 2023-11-26T13:49:14.007
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 1
+
+
+# Created at 2023-11-26T13:49:14.008
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 2
+
+
+# Created at 2023-11-26T13:49:14.008
+Unexpected IOException with stream: Checking before every step everything working fine or not - Prioritized 1
+
+
+# Created at 2023-11-26T13:49:14.009
+Unexpected IOException with stream: Checking before every step everything working fine or not - - Prioritized 2
+
+
+# Created at 2023-11-26T13:49:15.080
+Unexpected IOException with stream:   When User enters valid email seleniumpanda6@gmail.com into email textbox field # step_definitions.Login.user_enters_valid_email_into_email_textbox_field(java.lang.String)
+
+
+# Created at 2023-11-26T13:49:15.082
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 1
+
+
+# Created at 2023-11-26T13:49:15.083
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 2
+
+
+# Created at 2023-11-26T13:49:15.083
+Unexpected IOException with stream: Checking before every step everything working fine or not - Prioritized 1
+
+
+# Created at 2023-11-26T13:49:15.084
+Unexpected IOException with stream: Checking before every step everything working fine or not - - Prioritized 2
+
+
+# Created at 2023-11-26T13:49:15.151
+Unexpected IOException with stream:   And User enters valid password Selenium@123 into password textbox field        # step_definitions.Login.user_enters_valid_password_into_password_textbox_field(java.lang.String)
+
+
+# Created at 2023-11-26T13:49:15.152
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 1
+
+
+# Created at 2023-11-26T13:49:15.152
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 2
+
+
+# Created at 2023-11-26T13:49:15.154
+Unexpected IOException with stream: Checking before every step everything working fine or not - Prioritized 1
+
+
+# Created at 2023-11-26T13:49:15.154
+Unexpected IOException with stream: Checking before every step everything working fine or not - - Prioritized 2
+
+
+# Created at 2023-11-26T13:49:15.218
+Unexpected IOException with stream:   And User clicks on Login button                                                # step_definitions.Login.user_clicks_on_login_button()
+
+
+# Created at 2023-11-26T13:49:15.218
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 1
+
+
+# Created at 2023-11-26T13:49:15.219
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 2
+
+
+# Created at 2023-11-26T13:49:15.219
+Unexpected IOException with stream: Checking before every step everything working fine or not - Prioritized 1
+
+
+# Created at 2023-11-26T13:49:15.220
+Unexpected IOException with stream: Checking before every step everything working fine or not - - Prioritized 2
+
+
+# Created at 2023-11-26T13:49:15.988
+Unexpected IOException with stream:   Then User is navigated to AccountPage                                          # step_definitions.Login.user_is_navigated_to_accountpage()
+
+
+# Created at 2023-11-26T13:49:15.988
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 1
+
+
+# Created at 2023-11-26T13:49:15.989
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 2
+
+
+# Created at 2023-11-26T13:49:16.046
+Unexpected IOException: 6,1,runner_files.Test_Runner_TestNG,runScenario(runner_files.Test_Runner_TestNG),null,null,null
+
+
+# Created at 2023-11-26T13:49:16.047
+Unexpected IOException: 5,1,runner_files.Test_Runner_TestNG,runScenario(runner_files.Test_Runner_TestNG),cucumber,null,null
+
+
+# Created at 2023-11-26T13:49:16.049
+Unexpected IOException with stream: 
+@TutorialsNinjaLogin @ValidCredentials
+Scenario Outline: Login with valid credentials                                   # src/test/resources/feature_files/Login.feature:22
+
+
+# Created at 2023-11-26T13:49:17.173
+Unexpected IOException with stream: Checking before every step everything working fine or not - Prioritized 1
+
+
+# Created at 2023-11-26T13:49:17.173
+Unexpected IOException with stream: Checking before every step everything working fine or not - - Prioritized 2
+
+
+# Created at 2023-11-26T13:49:20.057
+Unexpected IOException with stream:   Given User navigates to LoginPage                                              # step_definitions.Login.user_navigates_to_loginpage(java.lang.String)
+
+
+# Created at 2023-11-26T13:49:20.058
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 1
+
+
+# Created at 2023-11-26T13:49:20.059
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 2
+
+
+# Created at 2023-11-26T13:49:20.060
+Unexpected IOException with stream: Checking before every step everything working fine or not - Prioritized 1
+
+
+# Created at 2023-11-26T13:49:20.060
+Unexpected IOException with stream: Checking before every step everything working fine or not - - Prioritized 2
+
+
+# Created at 2023-11-26T13:49:21.213
+Unexpected IOException with stream:   When User enters valid email seleniumpanda7@gmail.com into email textbox field # step_definitions.Login.user_enters_valid_email_into_email_textbox_field(java.lang.String)
+
+
+# Created at 2023-11-26T13:49:21.214
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 1
+
+
+# Created at 2023-11-26T13:49:21.214
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 2
+
+
+# Created at 2023-11-26T13:49:21.215
+Unexpected IOException with stream: Checking before every step everything working fine or not - Prioritized 1
+
+
+# Created at 2023-11-26T13:49:21.215
+Unexpected IOException with stream: Checking before every step everything working fine or not - - Prioritized 2
+
+
+# Created at 2023-11-26T13:49:21.274
+Unexpected IOException with stream:   And User enters valid password Selenium@123 into password textbox field        # step_definitions.Login.user_enters_valid_password_into_password_textbox_field(java.lang.String)
+
+
+# Created at 2023-11-26T13:49:21.275
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 1
+
+
+# Created at 2023-11-26T13:49:21.276
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 2
+
+
+# Created at 2023-11-26T13:49:21.276
+Unexpected IOException with stream: Checking before every step everything working fine or not - Prioritized 1
+
+
+# Created at 2023-11-26T13:49:21.277
+Unexpected IOException with stream: Checking before every step everything working fine or not - - Prioritized 2
+
+
+# Created at 2023-11-26T13:49:21.320
+Unexpected IOException with stream:   And User clicks on Login button                                                # step_definitions.Login.user_clicks_on_login_button()
+
+
+# Created at 2023-11-26T13:49:21.320
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 1
+
+
+# Created at 2023-11-26T13:49:21.321
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 2
+
+
+# Created at 2023-11-26T13:49:21.321
+Unexpected IOException with stream: Checking before every step everything working fine or not - Prioritized 1
+
+
+# Created at 2023-11-26T13:49:21.321
+Unexpected IOException with stream: Checking before every step everything working fine or not - - Prioritized 2
+
+
+# Created at 2023-11-26T13:49:22.005
+Unexpected IOException with stream:   Then User is navigated to AccountPage                                          # step_definitions.Login.user_is_navigated_to_accountpage()
+
+
+# Created at 2023-11-26T13:49:22.005
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 1
+
+
+# Created at 2023-11-26T13:49:22.005
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 2
+
+
+# Created at 2023-11-26T13:49:22.071
+Unexpected IOException: 6,1,runner_files.Test_Runner_TestNG,runScenario(runner_files.Test_Runner_TestNG),null,null,null
+
+
+# Created at 2023-11-26T13:49:22.071
+Unexpected IOException: 5,1,runner_files.Test_Runner_TestNG,runScenario(runner_files.Test_Runner_TestNG),cucumber,null,null
+
+
+# Created at 2023-11-26T13:49:22.074
+Unexpected IOException with stream: 
+@TutorialsNinjaLogin @ValidCredentials
+Scenario Outline: Login with valid credentials                                   # src/test/resources/feature_files/Login.feature:23
+
+
+# Created at 2023-11-26T13:49:23.198
+Unexpected IOException with stream: Checking before every step everything working fine or not - Prioritized 1
+
+
+# Created at 2023-11-26T13:49:23.199
+Unexpected IOException with stream: Checking before every step everything working fine or not - - Prioritized 2
+
+
+# Created at 2023-11-26T13:49:26.763
+Unexpected IOException with stream:   Given User navigates to LoginPage                                              # step_definitions.Login.user_navigates_to_loginpage(java.lang.String)
+
+
+# Created at 2023-11-26T13:49:26.765
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 1
+
+
+# Created at 2023-11-26T13:49:26.766
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 2
+
+
+# Created at 2023-11-26T13:49:26.767
+Unexpected IOException with stream: Checking before every step everything working fine or not - Prioritized 1
+
+
+# Created at 2023-11-26T13:49:26.767
+Unexpected IOException with stream: Checking before every step everything working fine or not - - Prioritized 2
+
+
+# Created at 2023-11-26T13:49:28.046
+Unexpected IOException with stream:   When User enters valid email seleniumpanda8@gmail.com into email textbox field # step_definitions.Login.user_enters_valid_email_into_email_textbox_field(java.lang.String)
+
+
+# Created at 2023-11-26T13:49:28.047
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 1
+
+
+# Created at 2023-11-26T13:49:28.047
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 2
+
+
+# Created at 2023-11-26T13:49:28.047
+Unexpected IOException with stream: Checking before every step everything working fine or not - Prioritized 1
+
+
+# Created at 2023-11-26T13:49:28.049
+Unexpected IOException with stream: Checking before every step everything working fine or not - - Prioritized 2
+
+
+# Created at 2023-11-26T13:49:28.099
+Unexpected IOException with stream:   And User enters valid password Selenium@123 into password textbox field        # step_definitions.Login.user_enters_valid_password_into_password_textbox_field(java.lang.String)
+
+
+# Created at 2023-11-26T13:49:28.101
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 1
+
+
+# Created at 2023-11-26T13:49:28.101
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 2
+
+
+# Created at 2023-11-26T13:49:28.102
+Unexpected IOException with stream: Checking before every step everything working fine or not - Prioritized 1
+
+
+# Created at 2023-11-26T13:49:28.102
+Unexpected IOException with stream: Checking before every step everything working fine or not - - Prioritized 2
+
+
+# Created at 2023-11-26T13:49:28.145
+Unexpected IOException with stream:   And User clicks on Login button                                                # step_definitions.Login.user_clicks_on_login_button()
+
+
+# Created at 2023-11-26T13:49:28.147
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 1
+
+
+# Created at 2023-11-26T13:49:28.147
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 2
+
+
+# Created at 2023-11-26T13:49:28.148
+Unexpected IOException with stream: Checking before every step everything working fine or not - Prioritized 1
+
+
+# Created at 2023-11-26T13:49:28.148
+Unexpected IOException with stream: Checking before every step everything working fine or not - - Prioritized 2
+
+
+# Created at 2023-11-26T13:49:29.023
+Unexpected IOException with stream:   Then User is navigated to AccountPage                                          # step_definitions.Login.user_is_navigated_to_accountpage()
+
+
+# Created at 2023-11-26T13:49:29.023
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 1
+
+
+# Created at 2023-11-26T13:49:29.024
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 2
+
+
+# Created at 2023-11-26T13:49:29.090
+Unexpected IOException: 6,1,runner_files.Test_Runner_TestNG,runScenario(runner_files.Test_Runner_TestNG),null,null,null
+
+
+# Created at 2023-11-26T13:49:29.091
+Unexpected IOException: 5,1,runner_files.Test_Runner_TestNG,runScenario(runner_files.Test_Runner_TestNG),cucumber,null,null
+
+
+# Created at 2023-11-26T13:49:29.094
+Unexpected IOException with stream: 
+@TutorialsNinjaLogin @ValidCredentials
+Scenario Outline: Login with valid credentials                                   # src/test/resources/feature_files/Login.feature:24
+
+
+# Created at 2023-11-26T13:49:30.259
+Unexpected IOException with stream: Checking before every step everything working fine or not - Prioritized 1
+
+
+# Created at 2023-11-26T13:49:30.259
+Unexpected IOException with stream: Checking before every step everything working fine or not - - Prioritized 2
+
+
+# Created at 2023-11-26T13:49:33.150
+Unexpected IOException with stream:   Given User navigates to LoginPage                                              # step_definitions.Login.user_navigates_to_loginpage(java.lang.String)
+
+
+# Created at 2023-11-26T13:49:33.151
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 1
+
+
+# Created at 2023-11-26T13:49:33.151
+Unexpected IOException with stream: Checking after every step everything is working fine or not - Priority 2
+
+
+# Created at 2023-11-26T13:49:33.151
+Unexpected IOException with stream: Checking before every step everything working fine or not - Prioritized 1
+
+
+# Created at 2023-11-26T13:49:33.152
+Unexpected IOException with stream: Checking before every step everything working fine or not - - Prioritized 2
+
+
