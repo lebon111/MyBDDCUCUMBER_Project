@@ -16,7 +16,7 @@ public class Topics_To_Discuss {
 	//Regular Expressions vs Cucumber Expressions
 	//What is Background?
 	//What are Hooks?
-	//What is Scenario Outline?
+	//What is Scenario Outline? - we do not use Excel sheet in BDD Cucumber
 	//Reports in Cucumber
 
 }
