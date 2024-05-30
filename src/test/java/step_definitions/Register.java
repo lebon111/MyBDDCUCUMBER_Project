@@ -4,12 +4,14 @@ import java.util.Map;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-import com.bdd.learning.DriverLogic.DriverFactory;
-import com.bdd.learning.Pages.AccountSuccessPage;
-import com.bdd.learning.Pages.HomePage;
-import com.bdd.learning.Pages.LoginPage;
-import com.bdd.learning.Pages.RegisterPage;
-import com.tutorialsninja.bdd.qa.Utilities.Util;
+
+import com.tutorialNinja.DriverLogic.DriverFactory;
+import com.tutorialNinja.Pages.AccountSuccessPage;
+import com.tutorialNinja.Pages.HomePage;
+import com.tutorialNinja.Pages.LoginPage;
+import com.tutorialNinja.Pages.RegisterPage;
+import com.tutorialsninja.Utilities.Util;
+
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;

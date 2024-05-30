@@ -2,9 +2,11 @@ package step_definitions;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-import com.bdd.learning.DriverLogic.DriverFactory;
-import com.bdd.learning.Pages.HomePage;
-import com.bdd.learning.Pages.SearchPage;
+
+import com.tutorialNinja.DriverLogic.DriverFactory;
+import com.tutorialNinja.Pages.HomePage;
+import com.tutorialNinja.Pages.SearchPage;
+
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;

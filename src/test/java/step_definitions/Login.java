@@ -3,11 +3,12 @@ package step_definitions;
 import java.util.Properties;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-import com.bdd.learning.DriverLogic.DriverFactory;
-import com.bdd.learning.Pages.AccountPage;
-import com.bdd.learning.Pages.HomePage;
-import com.bdd.learning.Pages.LoginPage;
-import com.tutorialsninja.bdd.qa.Utilities.Util;
+
+import com.tutorialNinja.DriverLogic.DriverFactory;
+import com.tutorialNinja.Pages.AccountPage;
+import com.tutorialNinja.Pages.HomePage;
+import com.tutorialNinja.Pages.LoginPage;
+import com.tutorialsninja.Utilities.Util;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;

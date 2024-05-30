@@ -144,6 +144,11 @@
       <version>4.13.2</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+    	<groupId>com.tutorialNinja</groupId>
+    	<artifactId>Hybrid_FrameWork_Project</artifactId>
+    	<version>0.0.1-SNAPSHOT</version>
+    </dependency>
   </dependencies>
 
   <build>
